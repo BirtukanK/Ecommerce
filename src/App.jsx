@@ -87,11 +87,6 @@ function App () {
           <div className={`${styles.boxWidth}`}>
             <Navbar />
           </div>
-          <div className={`${styles.boxWidth}`}>
-              <Hero />
-              <Product />
-              <Footer />
-            </div>
         </div>
         {/* <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
               <div className={`${styles.boxWidth}`}>
