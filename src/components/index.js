@@ -3,6 +3,7 @@ import Product from "./Product";
 import Hero from "./Hero";
 import Register from "./Register";
 import Footer from "./Footer";
+import About from "./About";
 
 export {
   Navbar,
@@ -10,4 +11,5 @@ export {
   Product,
   Hero,
   Register,
+  About,
 };

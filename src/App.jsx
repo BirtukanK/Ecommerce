@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import styles from './style';
 import { useState } from 'react';
 
-import { Footer, Navbar, Product, Hero, Register} from "./components";
+import { Footer, Navbar, Product, Hero, Register, About} from "./components";
 import Login from "./components/Login";
 
 
@@ -91,7 +91,7 @@ function App () {
         <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
             <div className={`${styles.boxWidth}`}>
               <Hero />
-              <Product />
+              <About />
               <Footer />
             </div>
           </div>
